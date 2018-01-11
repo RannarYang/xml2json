@@ -1,0 +1,1945 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+maintype="33"             任务类型
+ id="8257" 			任务ID
+ name="" 			任务名
+ can_drop="0" 		放弃任务标识
+ can_dice="0" 		骰子任务标识
+ can_repeat="0" 		可重复标识
+ is_quality="0" 		是否品质任务
+ acceptnpc_random="0" 	接任务NPC是否随机
+ compnpc_random="0" 	交任务NPC是否随机
+ taskmsg_random="0" 	任务描述是否随机
+ acceptmsg_random="0" 	接任务描述是否随机
+ compmsg_random="0" 	交任务描述是否随机
+ processmsg_random="0" 	进行中任务是否随机
+ conditiontype_random="0" 	任务类型是否随机
+ auto_accept="1" 			是否自动接
+ auto_submit="0" 			是否自动交
+-->
+
+
+<root >
+
+<task maintype="10" id="37888" name="押运镖车" can_drop="2" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="老马识途，镖车会自动前往目的地，正好趁拉镖的时候去做其他事情吧！" submit_printinfo="" accept_answerinfo="我这就押镖前往。" submit_answerinfo="物资已经运到。" completeTip="" isShowRoute="0" title="" can_mul="1" isShowFinishCount="" showtype="" >
+  <attr type="16421" value="1064" />
+  <attr type="16422" value="1090" />
+  <attr type="16423" value="7007" />
+  <attr type="16424" value="7008" />
+  <attr type="16425" value="7009" />
+  <attr type="16426" value="7010" />
+  <attr type="16430" value="9" />
+  <attr type="16417" value="0|900|100|0|0" />
+  <attr type="16418" value="0|470|480|35|15" />
+  <attr type="16419" value="100|100|130|160|200" />
+    <attr type="16517" value="100|130|160|200|250" />
+  <attr type="16518" value="100|100|140|160|200" />
+  <attr type="16429" value="1|1|1|1|1|1|1|1|1|1" />
+  <attr type="16398" value="1029#1" />
+  <attr type="16420" value="600;600;" />
+  <attr type="16427" value="13" />
+  <attr type="16442" value="1|4" />
+  <condition type="16444" value="1825#1" />
+  <attr type="16467" value="0|0|0|0|0;0|700|220|50|30;0|0|850|120|30;0|0|0|900|100;0|0|0|0|0" />
+  <rewards type="16451" value="20" />
+  <getcondition type="16386" value="81" />
+  <getcondition type="16387" value="35" />
+  <rewards type="16472" value="1|2|3|4;105" />
+  <getcondition type="16390" value="2" />
+  <getcondition type="16461" value="4|#rule12;3|#rule12;" />
+  <rewards type="4099" value="#rule29;#rule11;" />
+  <rewards type="16414" value="1029#1" />
+  <rewards type="4105" value="50" />
+<rewards type="16462" value="1-110|4|#rule28:111-150|4|#rule39;1-110|4|#rule13:111-150|4|#rule38;" />
+ </task>
+
+ <task maintype="10" id="37952" name="押运镖车" can_drop="2" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="老马识途，镖车会自动前往目的地，正好趁拉镖的时候去做其他事情吧！" submit_printinfo="" accept_answerinfo="我这就押镖前往。" submit_answerinfo="物资已经运到。" completeTip="" isShowRoute="0" title="" can_mul="1" isShowFinishCount="" showtype="" >
+  <attr type="16421" value="1065" />
+  <attr type="16422" value="1090;" />
+  <attr type="16423" value="7035" />
+  <attr type="16424" value="7036" />
+  <attr type="16425" value="7037" />
+  <attr type="16426" value="7038" />
+  <attr type="16430" value="9" />
+  <attr type="16417" value="0|800|200|0|0" />
+  <attr type="16418" value="0|470|480|35|15" />
+  <attr type="16419" value="100|100|130|160|200" />
+    <attr type="16517" value="100|130|160|200|250" />
+  <attr type="16518" value="100|100|140|160|200" />
+  <attr type="16429" value="1|1|1|1|1|1|1|1|1|1" />
+  <attr type="16398" value="1029#1" />
+  <attr type="16420" value="600;600;" />
+  <attr type="16427" value="14" />
+  <attr type="16442" value="1|4" />
+  <condition type="16444" value="1825#1" />
+  <attr type="16467" value="0|0|0|0|0;0|700|220|50|30;0|0|850|120|30;0|0|0|900|100;0|0|0|0|0" />
+  <rewards type="16451" value="20" />
+  <getcondition type="16386" value="90" />
+  <getcondition type="16387" value="35" />
+  <rewards type="16472" value="1|2|3|4;105" />
+  <getcondition type="16390" value="2" />
+  <getcondition type="16461" value="4|#rule12;3|#rule12;" />
+  <rewards type="4099" value="#rule29;#rule11;" />
+  <rewards type="16414" value="1029#1" />
+  <rewards type="4105" value="50" />
+<rewards type="16462" value="1-110|4|#rule28:111-150|4|#rule39;1-110|4|#rule13:111-150|4|#rule38;" />
+ </task>
+
+ <task maintype="10" id="38016" name="押运镖车" can_drop="2" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="老马识途，镖车会自动前往目的地，正好趁拉镖的时候去做其他事情吧！" submit_printinfo="" accept_answerinfo="我这就押镖前往。" submit_answerinfo="物资已经运到。" completeTip="" isShowRoute="0" title="" can_mul="1" isShowFinishCount="" showtype="" >
+  <attr type="16421" value="1066" />
+  <attr type="16422" value="1090" />
+  <attr type="16423" value="7063" />
+  <attr type="16424" value="7064" />
+  <attr type="16425" value="7065" />
+  <attr type="16426" value="7066" />
+  <attr type="16430" value="9" />
+  <attr type="16417" value="0|900|100|0|0" />
+  <attr type="16418" value="0|470|480|35|15" />
+  <attr type="16419" value="100|100|130|160|200" />
+    <attr type="16517" value="100|130|160|200|250" />
+  <attr type="16518" value="100|100|140|160|200" />
+  <attr type="16429" value="1|1|1|1|1|1|1|1|1|1" />
+  <attr type="16398" value="1029#1" />
+  <attr type="16420" value="600;600;" />
+  <attr type="16427" value="15" />
+  <attr type="16442" value="1|4" />
+  <condition type="16444" value="1825#1" />
+  <attr type="16467" value="0|0|0|0|0;0|700|220|50|30;0|0|850|120|30;0|0|0|900|100;0|0|0|0|0" />
+  <rewards type="16451" value="20" />
+  <getcondition type="16386" value="78" />
+  <getcondition type="16387" value="35" />
+  <rewards type="16472" value="1|2|3|4;105" />
+  <getcondition type="16390" value="2" />
+  <getcondition type="16461" value="4|#rule12;3|#rule12;" />
+  <rewards type="4099" value="#rule29;#rule11;" />
+  <rewards type="16414" value="1029#1" />
+  <rewards type="4105" value="50" />
+<rewards type="16462" value="1-110|4|#rule28:111-150|4|#rule39;1-110|4|#rule13:111-150|4|#rule38;" />
+ </task>
+
+ <task maintype="10" id="38080" name="押运镖车" can_drop="2" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="老马识途，镖车会自动前往目的地，正好趁拉镖的时候去做其他事情吧！" submit_printinfo="" accept_answerinfo="我这就押镖前往。" submit_answerinfo="物资已经运到。" completeTip="" isShowRoute="0" title="" can_mul="1" isShowFinishCount="" showtype="" >
+  <attr type="16421" value="1067" />
+  <attr type="16422" value="1090" />
+  <attr type="16423" value="7091" />
+  <attr type="16424" value="7092" />
+  <attr type="16425" value="7093" />
+  <attr type="16426" value="7094" />
+  <attr type="16430" value="9" />
+  <attr type="16417" value="0|900|100|0|0" />
+  <attr type="16418" value="0|470|480|35|15" />
+  <attr type="16419" value="100|100|130|160|200" />
+    <attr type="16517" value="100|130|160|200|250" />
+  <attr type="16518" value="100|100|140|160|200" />
+  <attr type="16429" value="1|1|1|1|1|1|1|1|1|1" />
+  <attr type="16398" value="1029#1" />
+  <attr type="16420" value="600;600;" />
+  <attr type="16427" value="16" />
+  <attr type="16442" value="1|4" />
+  <condition type="16444" value="1825#1" />
+  <attr type="16467" value="0|0|0|0|0;0|700|220|50|30;0|0|850|120|30;0|0|0|900|100;0|0|0|0|0" />
+  <rewards type="16451" value="20" />
+  <getcondition type="16386" value="67" />
+  <getcondition type="16387" value="35" />
+  <rewards type="16472" value="1|2|3|4;105" />
+  <getcondition type="16390" value="2" />
+  <getcondition type="16461" value="4|#rule12;3|#rule12;" />
+  <rewards type="4099" value="#rule29;#rule11;" />
+  <rewards type="16414" value="1029#1" />
+  <rewards type="4105" value="50" />
+<rewards type="16462" value="1-110|4|#rule28:111-150|4|#rule39;1-110|4|#rule13:111-150|4|#rule38;" />
+ </task>
+ 
+
+ <task maintype="34" id="38200" name="与将军击杀敌将" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="88" />
+<condition type="16663" value="33#1" />
+<rewards type="4099" value="50" />
+</task>
+
+ <task maintype="33" id="38201" name="击杀马贼" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38200" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32768#5" />
+<rewards type="4101" value="10000" />
+</task>
+
+ <task maintype="33" id="38202" name="激活3个技能" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38201" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="72" />
+<condition type="16645" value="1831#3" />
+<rewards type="4101" value="5000" />
+</task>
+
+ <task maintype="34" id="38205" name="击杀马贼队长" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32769#1" />
+<rewards type="4101" value="2000" />
+</task>
+
+
+ <task maintype="33" id="38210" name="穿戴10件装备" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38205" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="68" />
+<condition type="16641" value="1829#10" />
+<rewards type="4101" value="2000" />
+</task>
+
+ <task maintype="34" id="38215" name="击杀野狼" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32770#16" />
+<rewards type="4101" value="2000" />
+</task>
+
+ <task maintype="34" id="38250" name="击杀野狼骑统" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32771#1" />
+<rewards type="4101" value="2000" />
+</task>
+
+ <task maintype="34" id="38350" name="角色到达5级" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="14" />
+<condition type="16435" value="1824#5" />
+<rewards type="4101" value="2000" />
+</task>
+ 
+  <task maintype="33" id="38360" name="升级2次技能" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38350" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="72" />
+<condition type="16645" value="1831#2" />
+<rewards type="4101" value="2000" />
+</task>
+ 
+  <task maintype="33" id="38370" name="强化2次装备" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38360" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="7" />
+<condition type="16406" value="1153#2" />
+<rewards type="4101" value="2000" />
+</task>
+ 
+  <task maintype="34" id="38380" name="击杀土匪" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32772#16" />
+<rewards type="4101" value="2000" />
+</task>
+ 
+  <task maintype="34" id="38390" name="击杀密林大盗" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32773#1" />
+<rewards type="4101" value="2000" />
+</task>
+ 
+   <task maintype="34" id="38400" name="镶嵌3个宝石" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="24" />
+<condition type="16471" value="16418#3" />
+<rewards type="4101" value="2000" />
+</task>
+ 
+   <task maintype="34" id="38410" name="击杀山贼" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32774#16" />
+<rewards type="4101" value="2000" />
+</task>
+ 
+ <task maintype="34" id="38510" name="击杀王二霸" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32775#1" />
+<rewards type="16414" value="12288#4" />
+</task>
+
+  <task maintype="33" id="38520" name="强化2次装备" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38510" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="7" />
+<condition type="16406" value="1153#2" />
+<rewards type="4101" value="2000" />
+</task>
+ 
+  <task maintype="33" id="38530" name="升级2次技能" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38520" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="72" />
+<condition type="16645" value="1831#2" />
+<rewards type="4101" value="2000" />
+</task>
+
+
+<task maintype="34" id="38610" name="击杀突袭军" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32776#16" />
+<rewards type="4101" value="4000" />
+</task> 
+
+<task maintype="34" id="38650" name="击杀敌国军师" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32777#1" />
+<rewards type="4101" value="4000" />
+</task> 
+ 
+  <task maintype="33" id="38651" name="进入圣城" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38650" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="88" />
+<condition type="16663" value="33#1" />
+<rewards type="4101" value="10000" />
+</task>
+ 
+  <task maintype="33" id="38652" name="参见李将军" can_drop="0" can_dice="0" can_repeat="0" is_quality="0" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="" submit_answerinfo="" completeTip="" isShowRoute="1" title="" can_mul="0" isShowFinishCount="" showtype="" >
+  <attr type="16421" value="1091" />
+  <attr type="16422" value="1091" />
+  <attr type="16423" value="8001" />
+  <attr type="16424" value="8002" />
+  <attr type="16425" value="8003" />
+  <attr type="16426" value="8004" />
+  <attr type="16430" value="0" />
+   <condition type="16401" value="1091#1" />
+  <getcondition type="16385" value="38651" />
+  <getcondition type="16387" value="1" />
+  <rewards type="4099" value="800" />
+  <rewards type="4100" value="165" />
+ </task>
+ 
+   <task maintype="33" id="38653" name="参见圣城军需官" can_drop="0" can_dice="0" can_repeat="0" is_quality="0" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="" submit_answerinfo="" completeTip="" isShowRoute="1" title="" can_mul="0" isShowFinishCount="" showtype="" >
+  <attr type="16421" value="1090" />
+  <attr type="16422" value="1090" />
+  <attr type="16423" value="8001" />
+  <attr type="16424" value="8002" />
+  <attr type="16425" value="8003" />
+  <attr type="16426" value="8004" />
+  <attr type="16430" value="0" />
+   <condition type="16401" value="1090#1" />
+  <getcondition type="16385" value="38652" />
+  <getcondition type="16387" value="1" />
+  <rewards type="4099" value="800" />
+  <rewards type="4100" value="165" />
+ </task>
+ 
+  <task maintype="34" id="38656" name="领取通关第1章奖励" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="14" />
+<condition type="16435" value="1824#10" />
+<rewards type="4101" value="2000" />
+</task> 
+ 
+ <task maintype="33" id="38660" name="一键装备10件蓝装" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38655" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="68" />
+<condition type="16641" value="1829#10" />
+<rewards type="4101" value="2000" />
+</task> 
+ 
+ <task maintype="34" id="38700" name="首充送橙色武器" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="97" />
+<condition type="16672" value="1855#1" />
+<rewards type="4101" value="4000" />
+</task>
+
+ <task maintype="33" id="38705" name="世界频道喊话" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38700" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="75" />
+<condition type="16648" value="1833#1" />
+<rewards type="4101" value="4000" />
+</task>
+
+<task maintype="34" id="38710" name="击杀士兵" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32778#32" />
+<rewards type="4101" value="4000" />
+</task> 
+
+<task maintype="34" id="38720" name="击杀对练精英" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32779#1" />
+<rewards type="4101" value="4000" />
+</task>
+
+<task maintype="33" id="38725" name="熔炼1次装备" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38720" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="22" />
+<condition type="16463" value="16416#1" />
+<rewards type="4101" value="8000" />
+</task>
+
+  <task maintype="33" id="38730" name="强化3次装备" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38725" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="7" />
+<condition type="16406" value="1153#3" />
+<rewards type="4101" value="2000" />
+</task>
+
+  <task maintype="33" id="38740" name="镶嵌3个宝石" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38730" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="24" />
+<condition type="16471" value="16418#3" />
+<rewards type="4101" value="2000" />
+</task>
+
+<task maintype="34" id="38745" name="击杀骑兵" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32780#32" />
+<rewards type="4101" value="4000" />
+</task> 
+
+ <task maintype="34" id="38750" name="击杀骑兵主将" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32781#1" />
+<rewards type="4101" value="4000" />
+</task>
+ 
+<task maintype="33" id="38900" name="比武1次" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38750" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="59" />
+<condition type="16529" value="16545#1" />
+<rewards type="4101" value="12000" />
+</task>
+
+<task maintype="34" id="38910" name="交1个好友" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="91" />
+<condition type="16666" value="1849#1" />
+<rewards type="4101" value="4000" />
+</task>
+
+  <task maintype="33" id="38915" name="升级2次技能" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38910" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="72" />
+<condition type="16645" value="1831#2" />
+<rewards type="4101" value="2000" />
+</task>
+
+<task maintype="34" id="38930" name="击杀侍女" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32782#32" />
+<rewards type="4101" value="4000" />
+</task> 
+
+ <task maintype="34" id="38940" name="击杀白面侍女" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32783#1" />
+<rewards type="4101" value="4000" />
+</task>
+
+ <task maintype="34" id="38943" name="挑战1次锻造副本" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="67" />
+<condition type="16640" value="6#1" />
+<rewards type="16414" value="12288#12" />
+</task>
+
+ <task maintype="33" id="38945" name="装备10件紫装" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38943" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="68" />
+<condition type="16641" value="1829#10" />
+<rewards type="4101" value="2000" />
+</task> 
+
+  <task maintype="33" id="38946" name="镶嵌6个宝石" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38945" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="24" />
+<condition type="16471" value="16418#6" />
+<rewards type="4101" value="2000" />
+</task>
+
+<task maintype="33" id="38947" name="比武1次" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38946" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="59" />
+<condition type="16529" value="16545#1" />
+<rewards type="4101" value="12000" />
+</task>
+
+<task maintype="34" id="38948" name="交1个好友" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="91" />
+<condition type="16666" value="1849#1" />
+<rewards type="4101" value="4000" />
+</task>
+
+<task maintype="34" id="38949" name="击杀叛军" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32784#32" />
+<rewards type="4101" value="4000" />
+</task> 
+
+ <task maintype="34" id="38950" name="击杀叛军将领" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32785#1" />
+<rewards type="4101" value="4000" />
+</task>
+
+<task maintype="33" id="38960" name="熔炼1次装备" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38950" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="22" />
+<condition type="16463" value="16416#1" />
+<rewards type="4101" value="8000" />
+</task>
+
+  <task maintype="33" id="38970" name="强化3次装备" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="38960" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="7" />
+<condition type="16406" value="1153#3" />
+<rewards type="4101" value="2000" />
+</task>
+
+<task maintype="34" id="39000" name="角色到达15级" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="14" />
+<condition type="16435" value="1824#15" />
+<rewards type="4101" value="4000" />
+</task>
+
+ <task maintype="34" id="39050" name="击杀敌兵" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32786#40" />
+<rewards type="4101" value="4000" />
+</task> 
+ 
+  <task maintype="34" id="39100" name="击杀敌国精锐" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32787#1" />
+<rewards type="16414" value="12288#8" />
+</task>
+ 
+   <task maintype="33" id="39101" name="进入圣城" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="39100" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="88" />
+<condition type="16663" value="33#1" />
+<rewards type="4101" value="10000" />
+</task>
+ 
+  <task maintype="33" id="39102" name="参见李将军" can_drop="0" can_dice="0" can_repeat="0" is_quality="0" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="" submit_answerinfo="" completeTip="" isShowRoute="1" title="" can_mul="0" isShowFinishCount="" showtype="" >
+  <attr type="16421" value="1091" />
+  <attr type="16422" value="1091" />
+  <attr type="16423" value="8001" />
+  <attr type="16424" value="8002" />
+  <attr type="16425" value="8003" />
+  <attr type="16426" value="8004" />
+  <attr type="16430" value="0" />
+   <condition type="16401" value="1091#1" />
+  <getcondition type="16385" value="39101" />
+  <getcondition type="16387" value="1" />
+  <rewards type="4099" value="800" />
+  <rewards type="4100" value="165" />
+ </task>
+ 
+   <task maintype="33" id="39103" name="参见圣城军需官" can_drop="0" can_dice="0" can_repeat="0" is_quality="0" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="" submit_answerinfo="" completeTip="" isShowRoute="1" title="" can_mul="0" isShowFinishCount="" showtype="" >
+  <attr type="16421" value="1090" />
+  <attr type="16422" value="1090" />
+  <attr type="16423" value="8001" />
+  <attr type="16424" value="8002" />
+  <attr type="16425" value="8003" />
+  <attr type="16426" value="8004" />
+  <attr type="16430" value="0" />
+   <condition type="16401" value="1090#1" />
+  <getcondition type="16385" value="39102" />
+  <getcondition type="16387" value="1" />
+  <rewards type="4099" value="800" />
+  <rewards type="4100" value="165" />
+ </task>
+ 
+ 
+   <task maintype="34" id="39110" name="领取通关第2章奖励" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="14" />
+<condition type="16435" value="1824#16" />
+<rewards type="4101" value="2000" />
+</task> 
+ 
+ <task maintype="33" id="39120" name="一键装备10件橙装" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="39110" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="68" />
+<condition type="16641" value="1829#10" />
+<rewards type="4101" value="2000" />
+</task> 
+ 
+  <task maintype="33" id="39150" name="强化2次装备" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="39120" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="7" />
+<condition type="16406" value="1153#2" />
+<rewards type="4101" value="4000" />
+</task>
+ 
+   <task maintype="34" id="39160" name="击杀囚徒" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32788#40" />
+<rewards type="4101" value="4000" />
+</task> 
+ 
+  <task maintype="34" id="39170" name="击杀亡命牢头" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32789#1" />
+<rewards type="4101" value="4000" />
+</task>
+ 
+ <task maintype="33" id="39180" name="熔炼1次装备" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="39170" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="22" />
+<condition type="16463" value="16416#1" />
+<rewards type="4101" value="8000" />
+</task>
+ 
+ <task maintype="34" id="39190" name="角色到达17级" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="14" />
+<condition type="16435" value="1824#17" />
+<rewards type="4101" value="4000" />
+</task>
+ 
+    <task maintype="34" id="39195" name="击杀妖姬" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32790#40" />
+<rewards type="4101" value="4000" />
+</task> 
+ 
+   <task maintype="34" id="39200" name="击杀变异蝶灵" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32791#1" />
+<rewards type="4101" value="4000" />
+</task>
+ 
+ <task maintype="34" id="39210" name="挑战坐骑副本" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="67" />
+<condition type="16640" value="5#1" />
+<rewards type="16414" value="12290#6" />
+</task>
+ 
+  <task maintype="33" id="39250" name="训练5次坐骑" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="39210" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="34" />
+<condition type="16501" value="16439#5" />
+<rewards type="4101" value="4000" />
+</task>
+ 
+   <task maintype="33" id="39251" name="强化5次装备" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="39250" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="7" />
+<condition type="16406" value="1153#5" />
+<rewards type="4101" value="2000" />
+</task>
+
+  <task maintype="33" id="39252" name="镶嵌6个宝石" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="39251" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="24" />
+<condition type="16471" value="16418#6" />
+<rewards type="4101" value="2000" />
+</task>
+ 
+     <task maintype="34" id="39253" name="击杀老虎" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32792#40" />
+<rewards type="4101" value="4000" />
+</task> 
+ 
+    <task maintype="34" id="39254" name="击杀狼头骑士" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32793#1" />
+<rewards type="4101" value="4000" />
+</task>
+ 
+   <task maintype="33" id="39255" name="训练10次坐骑" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="39254" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="34" />
+<condition type="16501" value="16439#10" />
+<rewards type="4101" value="4000" />
+</task>
+
+     <task maintype="34" id="39256" name="挑战1次遭遇BOSS" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="105" />
+<condition type="16680" value="1863#1" />
+<rewards type="4101" value="4000" />
+</task>
+ 
+ <task maintype="33" id="39257" name="比武1次" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="39256" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="59" />
+<condition type="16529" value="16545#1" />
+<rewards type="4101" value="4000" />
+</task>
+ 
+      <task maintype="34" id="39258" name="击杀哨兵" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32794#40" />
+<rewards type="4101" value="4000" />
+</task> 
+ 
+    <task maintype="34" id="39260" name="击杀哨兵队长" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32795#1" />
+<rewards type="4101" value="4000" />
+</task>
+
+     <task maintype="34" id="39270" name="挑战1次遭遇BOSS" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="105" />
+<condition type="16680" value="1863#1" />
+<rewards type="4101" value="4000" />
+</task>
+
+  <task maintype="33" id="39280" name="训练10次坐骑" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="39270" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="34" />
+<condition type="16501" value="16439#10" />
+<rewards type="4101" value="4000" />
+</task>
+
+ <task maintype="34" id="39300" name="角色到达20级" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="14" />
+<condition type="16435" value="1824#20" />
+<rewards type="16414" value="12289#2" />
+</task>
+ 
+       <task maintype="34" id="39310" name="击杀匈奴兵" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32796#40" />
+<rewards type="4101" value="4000" />
+</task> 
+
+   <task maintype="34" id="39400" name="击杀兽人统领" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32797#1" />
+<rewards type="16414" value="16722#1" />
+</task> 
+ 
+    <task maintype="33" id="39401" name="进入圣城" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="39400" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="88" />
+<condition type="16663" value="33#1" />
+<rewards type="4101" value="10000" />
+</task>
+ 
+  <task maintype="33" id="39402" name="参见李将军" can_drop="0" can_dice="0" can_repeat="0" is_quality="0" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="" submit_answerinfo="" completeTip="" isShowRoute="1" title="" can_mul="0" isShowFinishCount="" showtype="" >
+  <attr type="16421" value="1091" />
+  <attr type="16422" value="1091" />
+  <attr type="16423" value="8001" />
+  <attr type="16424" value="8002" />
+  <attr type="16425" value="8003" />
+  <attr type="16426" value="8004" />
+  <attr type="16430" value="0" />
+   <condition type="16401" value="1091#1" />
+  <getcondition type="16385" value="39401" />
+  <getcondition type="16387" value="1" />
+  <rewards type="4099" value="800" />
+  <rewards type="4100" value="165" />
+ </task>
+ 
+   <task maintype="33" id="39403" name="参见圣城军需官" can_drop="0" can_dice="0" can_repeat="0" is_quality="0" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="" submit_answerinfo="" completeTip="" isShowRoute="1" title="" can_mul="0" isShowFinishCount="" showtype="" >
+  <attr type="16421" value="1090" />
+  <attr type="16422" value="1090" />
+  <attr type="16423" value="8001" />
+  <attr type="16424" value="8002" />
+  <attr type="16425" value="8003" />
+  <attr type="16426" value="8004" />
+  <attr type="16430" value="0" />
+   <condition type="16401" value="1090#1" />
+  <getcondition type="16385" value="39402" />
+  <getcondition type="16387" value="1" />
+  <rewards type="4099" value="800" />
+  <rewards type="4100" value="165" />
+ </task>
+ 
+ 
+    <task maintype="34" id="39410" name="领取通关第3章奖励" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="14" />
+<condition type="16435" value="1824#20" />
+<rewards type="4101" value="2000" />
+</task> 
+ 
+ 
+<task maintype="34" id="39450" name="镶嵌1次宝石" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="24" />
+<condition type="16471" value="16418#1" />
+<rewards type="4101" value="8000" />
+</task>
+
+<task maintype="34" id="39500" name="通关百战山野4" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32801#1" />
+<rewards type="16414" value="12313#4" />
+</task>
+
+<task maintype="33" id="39550" name="洗练1次宠物" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="39500" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="94" />
+<condition type="16669" value="1852#1" />
+<rewards type="4101" value="8000" />
+</task>
+
+
+<task maintype="34" id="39700" name="通关百战山野8" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32805#1" />
+<rewards type="16414" value="12289#4" />
+</task>
+
+ <task maintype="33" id="39750" name="进阶2次羽翼" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="39700" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="66" />
+<condition type="16537" value="1828#2" />
+<rewards type="4101" value="8000" />
+</task>
+
+<task maintype="34" id="39800" name="通关百战山野10" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32807#1" />
+<rewards type="4101" value="8000" />
+</task>
+
+ <task maintype="34" id="39850" name="角色到达25级" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="14" />
+<condition type="16435" value="1824#25" />
+<rewards type="4101" value="8000" />
+</task>
+
+ <task maintype="34" id="39900" name="挑战锻造副本" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="67" />
+<condition type="16640" value="6#1" />
+<rewards type="16414" value="12288#12" />
+</task>
+
+  <task maintype="33" id="39950" name="强化3次装备" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="39900" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="7" />
+<condition type="16406" value="1153#3" />
+<rewards type="4101" value="8000" />
+</task>
+
+ <task maintype="34" id="40000" name="通关塞外4 " can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32811#1" />
+<rewards type="16414" value="12290#6" />
+</task>
+
+
+<task maintype="33" id="40010" name="熔炼1次装备" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="40000" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="22" />
+<condition type="16463" value="16416#1" />
+<rewards type="4101" value="8000" />
+</task>
+
+ <task maintype="34" id="40020" name="通关塞外8 " can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32815#1" />
+<rewards type="16414" value="12290#6" />
+</task>
+
+
+  <task maintype="33" id="40050" name="训练3次坐骑" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="40020" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="34" />
+<condition type="16501" value="16439#3" />
+<rewards type="4101" value="8000" />
+</task>
+
+<task maintype="34" id="40100" name="通关塞外10" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32817#1" />
+<rewards type="4101" value="8000" />
+</task>
+
+ <task maintype="34" id="40150" name="等级升到30级" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="14" />
+<condition type="16435" value="1824#30" />
+<rewards type="4101" value="8000" />
+</task>
+
+<task maintype="34" id="40160" name="激活1个兽丹" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="69" />
+<condition type="16642" value="1830#1" />
+<rewards type="4101" value="8000" />
+</task>
+
+
+ <task maintype="33" id="40200" name="进入圣城" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="40160" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="88" />
+<condition type="16663" value="33#1" />
+<rewards type="4101" value="10000" />
+</task>
+
+
+<task maintype="34" id="40350" name="切换为国家PK" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="89" />
+<condition type="16664" value="1847#1" />
+<rewards type="4101" value="10000" />
+</task>
+
+ <task maintype="34" id="40400" name="进行国家刺探" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="82" />
+<condition type="16657" value="1840#1" />
+<rewards type="4101" value="10000" />
+</task>
+
+<task maintype="33" id="40500" name="提升1次军衔" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="40400" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="76" />
+<condition type="16649" value="1834#1" />
+<rewards type="4101" value="10000" />
+</task>
+
+ <task maintype="34" id="40550" name="通关城郊4" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32821#1" />
+<rewards type="4101" value="10000" />
+</task>
+
+<task maintype="34" id="40650" name="通关城郊8" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32825#1" />
+<rewards type="4101" value="10000" />
+</task>
+
+<task maintype="33" id="40700" name="洗练1次装备" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="40650" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="96" />
+<condition type="16671" value="1854#1" />
+<rewards type="4101" value="10000" />
+</task>
+
+<task maintype="34" id="40750" name="通关城郊12" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32829#1" />
+<rewards type="4101" value="10000" />
+</task>
+
+<task maintype="34" id="40800" name="挑战坐骑副本" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="67" />
+<condition type="16640" value="5#1" />
+<rewards type="16414" value="12290#6" />
+</task>
+
+  <task maintype="33" id="40850" name="训练3次坐骑" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="40800" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="34" />
+<condition type="16501" value="16439#3" />
+<rewards type="4101" value="10000" />
+</task>
+
+<task maintype="34" id="40900" name="通关城郊14" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32831#1" />
+<rewards type="4101" value="10000" />
+</task>
+
+<task maintype="34" id="40950" name="激活4个兽丹" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="69" />
+<condition type="16642" value="1830#4" />
+<rewards type="4101" value="10000" />
+</task>
+
+ <task maintype="34" id="41000" name="角色到达35级" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="14" />
+<condition type="16435" value="1824#35" />
+<rewards type="16414" value="1029#3" />
+</task>
+
+<task maintype="34" id="41050" name="押运王城镖车" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="80" />
+<condition type="16652" value="1837#1" />
+<rewards type="16414" value="1029#3" />
+</task>
+
+<task maintype="33" id="41100" name="参加1次比武" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="41050" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="59" />
+<condition type="16529" value="16545#1" />
+<rewards type="4101" value="12000" />
+</task>
+
+<task maintype="34" id="41110" name="通关莽荒之地4" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32835#1" />
+<rewards type="4101" value="12000" />
+</task>
+
+<task maintype="34" id="41200" name="挑战羽翼副本" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="67" />
+<condition type="16640" value="9#1" />
+<rewards type="16414" value="12289#6" />
+</task>
+
+<task maintype="33" id="41250" name="提升3次羽翼" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="41200" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="66" />
+<condition type="16537" value="1828#3" />
+<rewards type="4101" value="12000" />
+</task>
+
+<task maintype="34" id="41300" name="通关莽荒之地8" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32839#1" />
+<rewards type="4101" value="12000" />
+</task>
+
+<task maintype="33" id="41350" name="进行1次寻羽" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="41300" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="35" />
+<condition type="16653" value="1838#1" />
+<rewards type="4101" value="12000" />
+</task>
+
+<task maintype="34" id="41400" name="镶嵌1个羽灵" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="81" />
+<condition type="16654" value="1839#1" />
+<rewards type="4101" value="12000" />
+</task>
+
+<task maintype="34" id="41450" name="通关莽荒之地12" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32843#1" />
+<rewards type="4101" value="12000" />
+</task>
+
+<task maintype="34" id="41500" name="挑战经验塔3关" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="28" />
+<condition type="16488" value="3#3" />
+<rewards type="4101" value="12000" />
+</task>
+
+<task maintype="34" id="41550" name="通关莽荒之地14" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32845#1" />
+<rewards type="4101" value="12000" />
+</task>
+
+<task maintype="34" id="41560" name="激活6个兽丹" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="69" />
+<condition type="16642" value="1830#6" />
+<rewards type="4101" value="12000" />
+</task>
+
+ <task maintype="34" id="41600" name="角色到达40级" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="14" />
+<condition type="16435" value="1824#40" />
+<rewards type="4101" value="12000" />
+</task>
+
+<task maintype="34" id="41650" name="转职新职业" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="87" />
+<condition type="16662" value="1846#1" />
+<rewards type="4101" value="15000" />
+</task>
+
+ <task maintype="34" id="41660" name="进行太庙搬砖" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="83" />
+<condition type="16658" value="1841#1" />
+<rewards type="4104" value="100" />
+</task>
+
+<task maintype="33" id="41670" name="提升1次军衔" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="40400" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="76" />
+<condition type="16649" value="1834#1" />
+<rewards type="4101" value="15000" />
+</task>
+
+
+<task maintype="34" id="41700" name="通关边城10" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32855#1" />
+<rewards type="4101" value="15000" />
+</task>
+
+<task maintype="34" id="41750" name="挑战银子棋局" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="67" />
+<condition type="16640" value="4#1" />
+<rewards type="4101" value="15000" />
+</task>
+
+
+<task maintype="34" id="41770" name="镶嵌2个羽灵" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="81" />
+<condition type="16654" value="1839#2" />
+<rewards type="4101" value="15000" />
+</task>
+
+<task maintype="34" id="41850" name="通关边城20" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32865#1" />
+<rewards type="4101" value="15000" />
+</task>
+
+<task maintype="34" id="41900" name="激活8个兽丹" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="69" />
+<condition type="16642" value="1830#2" />
+<rewards type="4101" value="15000" />
+</task>
+
+
+<task maintype="34" id="41910" name="完成10个成就" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="102" />
+<condition type="16677" value="1860#10" />
+<rewards type="4102" value="50" />
+</task>
+
+
+<task maintype="33" id="42000" name="购买1件珍品" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="41950" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="90" />
+<condition type="16665" value="1848#1" />
+<rewards type="4101" value="15000" />
+</task>
+
+<task maintype="34" id="42050" name="通关敦煌10" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32875#1" />
+<rewards type="4101" value="15000" />
+</task>
+
+<task maintype="34" id="42100" name="角色到达45级" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="14" />
+<condition type="16435" value="1824#45" />
+<rewards type="4101" value="15000" />
+</task>
+
+<task maintype="34" id="42150" name="挑战朱雀副本" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="67" />
+<condition type="16640" value="10#1" />
+<rewards type="16414" value="12291#2" />
+</task>
+
+<task maintype="34" id="42155" name="完成20个成就" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="102" />
+<condition type="16677" value="1860#20" />
+<rewards type="4101" value="15000" />
+</task>
+
+<task maintype="34" id="42160" name="通关敦煌24" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32889#1" />
+<rewards type="4101" value="15000" />
+</task>
+
+<task maintype="34" id="42200" name="角色到达50级" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="14" />
+<condition type="16435" value="1824#50" />
+<rewards type="16414" value="12291#2" />
+</task>
+
+<task maintype="34" id="42300" name="拥有1件朱雀神装" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="99" />
+<condition type="16674" value="1857#1" />
+<rewards type="16414" value="12291#2" />
+</task>
+
+<task maintype="34" id="42301" name="通过经验塔21关" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="28" />
+<condition type="16488" value="3#21" />
+<rewards type="4101" value="17000" />
+</task>
+
+<task maintype="34" id="42302" name="通关边陲小城10" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32899#1" />
+<rewards type="4101" value="17000" />
+</task>
+
+<task maintype="34" id="42303" name="挑战镇天塔4层" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="67" />
+<condition type="16488" value="15#4" />
+<rewards type="4101" value="17000" />
+</task>
+
+<task maintype="34" id="42304" name="通关边陲小城20" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32909#1" />
+<rewards type="4101" value="17000" />
+</task>
+
+<task maintype="34" id="42305" name="角色到达55级" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="14" />
+<condition type="16435" value="1824#55" />
+<rewards type="16414" value="12295#5" />
+</task>
+
+<task maintype="33" id="42306" name="提升1次坐骑装备" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="42305" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="101" />
+<condition type="16676" value="1859#1" />
+<rewards type="4101" value="20000" />
+</task>
+
+<task maintype="34" id="42307" name="完成30个成就" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="102" />
+<condition type="16677" value="1860#30" />
+<rewards type="4101" value="20000" />
+</task>
+
+
+<task maintype="34" id="42310" name="通关边陲小城30" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="1" />
+<condition type="16402" value="32919#1" />
+<rewards type="16414" value="1046#3" />
+</task>
+
+<task maintype="33" id="42311" name="进行1次搜魂" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="42310" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="100" />
+<condition type="16675" value="1858#1" />
+<rewards type="4101" value="20000" />
+</task>
+
+<task maintype="34" id="42400" name="获得1把魂器" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="98" />
+<condition type="16673" value="1856#1" />
+<rewards type="4101" value="20000" />
+</task>
+
+<task maintype="34" id="42410" name="挑战镇天塔12层" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="67" />
+<condition type="16488" value="15#12" />
+<rewards type="4101" value="17000" />
+</task>
+
+<task maintype="34" id="42450" name="角色到达60级" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="14" />
+<condition type="16435" value="1824#60" />
+<rewards type="4101" value="20000" />
+</task>
+
+<task maintype="34" id="42460" name="完成50个成就" can_drop="0" can_dice="0" can_repeat="0" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="1" auto_submit="0" activateguide="0" hard_level="1" can_fly="1" accept_printinfo="" submit_printinfo="" accept_answerinfo="立即提升" submit_answerinfo="目标完成" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<getcondition type="16385" value="81" />
+<getcondition type="16387" value="1" />
+<attr type="16430" value="102" />
+<condition type="16677" value="1860#50" />
+<rewards type="4101" value="20000" />
+</task>
+
+
+
+<task maintype="9" id="50000" name="刺探任务" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="我这就去别的国家刺探情报。" submit_answerinfo="情报已经带回。" completeTip="[#C\A018E7#]高风险高收益[#C#]" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="" >
+<attr type="16421" value="1048" />
+<attr type="16422" value="1048" />
+<attr type="16423" value="6943" />
+<attr type="16424" value="6944" />
+<attr type="16425" value="6945" />
+<attr type="16426" value="6946" />
+<attr type="16430" value="11" />
+<attr type="16417" value="0|600|300|100|0" />
+<attr type="16418" value="0|500|350|100|50" />
+<attr type="16419" value="0|100|130|160|200" />
+<attr type="16416" value="1053#80" />
+<attr type="16467" value="0|0|0|0|0;0|700|240|50|10;0|0|770|200|30;0|0|0|900|100;0|0|0|0|0" />
+<attr type="16442" value="0|3" />
+<attr type="16399" value="30" />
+<attr type="16478" value="0|0|0|500|500" />
+<attr type="16434" value="90" />
+<attr type="16518" value="100|100|130|230|400" />
+<condition type="16401" value="1053#1" />
+<getcondition type="16386" value="81" />
+<getcondition type="16387" value="30" />
+<getcondition type="16390" value="2" />
+<rewards type="4104" value="150" />
+<rewards type="4099" value="#rule7" />
+<rewards type="4105" value="30" />
+</task>
+
+<task maintype="9" id="50001" name="刺探任务" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="我这就去别的国家刺探情报。" submit_answerinfo="情报已经带回。" completeTip="[#C\A018E7#]高风险高收益[#C#]" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="" >
+<attr type="16421" value="1048" />
+<attr type="16422" value="1048" />
+<attr type="16423" value="6943" />
+<attr type="16424" value="6944" />
+<attr type="16425" value="6945" />
+<attr type="16426" value="6946" />
+<attr type="16430" value="11" />
+<attr type="16417" value="0|600|300|100|0" />
+<attr type="16418" value="0|500|350|100|50" />
+<attr type="16419" value="0|100|130|160|200" />
+<attr type="16416" value="1054#80" />
+<attr type="16467" value="0|0|0|0|0;0|700|240|50|10;0|0|770|200|30;0|0|0|900|100;0|0|0|0|0" />
+<attr type="16442" value="0|3" />
+<attr type="16399" value="30" />
+<attr type="16478" value="0|0|0|500|500" />
+<attr type="16434" value="78" />
+<attr type="16518" value="100|100|130|230|400" />
+<condition type="16401" value="1054#1" />
+<getcondition type="16386" value="81" />
+<getcondition type="16387" value="30" />
+<getcondition type="16390" value="2" />
+<rewards type="4104" value="150" />
+<rewards type="4099" value="#rule7" />
+<rewards type="4105" value="30" />
+</task>
+
+<task maintype="9" id="50002" name="刺探任务" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="我这就去别的国家刺探情报。" submit_answerinfo="情报已经带回。" completeTip="[#C\A018E7#]高风险高收益[#C#]" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="" >
+<attr type="16421" value="1048" />
+<attr type="16422" value="1048" />
+<attr type="16423" value="6943" />
+<attr type="16424" value="6944" />
+<attr type="16425" value="6945" />
+<attr type="16426" value="6946" />
+<attr type="16430" value="11" />
+<attr type="16417" value="0|600|300|100|0" />
+<attr type="16418" value="0|500|350|100|50" />
+<attr type="16419" value="0|100|130|160|200" />
+<attr type="16416" value="1055#80" />
+<attr type="16467" value="0|0|0|0|0;0|700|240|50|10;0|0|770|200|30;0|0|0|900|100;0|0|0|0|0" />
+<attr type="16442" value="0|3" />
+<attr type="16399" value="30" />
+<attr type="16478" value="0|0|0|500|500" />
+<attr type="16434" value="67" />
+<attr type="16518" value="100|100|130|230|400" />
+<condition type="16401" value="1055#1" />
+<getcondition type="16386" value="81" />
+<getcondition type="16387" value="30" />
+<getcondition type="16390" value="2" />
+<rewards type="4104" value="150" />
+<rewards type="4099" value="#rule7" />
+<rewards type="4105" value="30" />
+</task>
+
+<task maintype="9" id="50003" name="刺探任务" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="我这就去别的国家刺探情报。" submit_answerinfo="情报已经带回。" completeTip="[#C\A018E7#]高风险高收益[#C#]" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="" >
+<attr type="16421" value="1049" />
+<attr type="16422" value="1049" />
+<attr type="16423" value="6943" />
+<attr type="16424" value="6944" />
+<attr type="16425" value="6945" />
+<attr type="16426" value="6946" />
+<attr type="16430" value="11" />
+<attr type="16417" value="0|600|300|100|0" />
+<attr type="16418" value="0|500|350|100|50" />
+<attr type="16419" value="0|100|130|160|200" />
+<attr type="16416" value="1052#80" />
+<attr type="16467" value="0|0|0|0|0;0|700|240|50|10;0|0|770|200|30;0|0|0|900|100;0|0|0|0|0" />
+<attr type="16442" value="0|3" />
+<attr type="16399" value="30" />
+<attr type="16478" value="0|0|0|500|500" />
+<attr type="16434" value="81" />
+<attr type="16518" value="100|100|130|230|400" />
+<condition type="16401" value="1052#1" />
+<getcondition type="16386" value="90" />
+<getcondition type="16387" value="30" />
+<getcondition type="16390" value="2" />
+<rewards type="4104" value="150" />
+<rewards type="4099" value="#rule7" />
+<rewards type="4105" value="30" />
+</task>
+
+<task maintype="9" id="50004" name="刺探任务" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="我这就去别的国家刺探情报。" submit_answerinfo="情报已经带回。" completeTip="[#C\A018E7#]高风险高收益[#C#]" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="" >
+<attr type="16421" value="1049" />
+<attr type="16422" value="1049" />
+<attr type="16423" value="6943" />
+<attr type="16424" value="6944" />
+<attr type="16425" value="6945" />
+<attr type="16426" value="6946" />
+<attr type="16430" value="11" />
+<attr type="16417" value="0|600|300|100|0" />
+<attr type="16418" value="0|500|350|100|50" />
+<attr type="16419" value="0|100|130|160|200" />
+<attr type="16416" value="1054#80" />
+<attr type="16467" value="0|0|0|0|0;0|700|240|50|10;0|0|770|200|30;0|0|0|900|100;0|0|0|0|0" />
+<attr type="16442" value="0|3" />
+<attr type="16399" value="30" />
+<attr type="16478" value="0|0|0|500|500" />
+<attr type="16434" value="78" />
+<attr type="16518" value="100|100|130|230|400" />
+<condition type="16401" value="1054#1" />
+<getcondition type="16386" value="90" />
+<getcondition type="16387" value="30" />
+<getcondition type="16390" value="2" />
+<rewards type="4104" value="150" />
+<rewards type="4099" value="#rule7" />
+<rewards type="4105" value="30" />
+</task>
+
+<task maintype="9" id="50005" name="刺探任务" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="我这就去别的国家刺探情报。" submit_answerinfo="情报已经带回。" completeTip="[#C\A018E7#]高风险高收益[#C#]" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="" >
+<attr type="16421" value="1049" />
+<attr type="16422" value="1049" />
+<attr type="16423" value="6943" />
+<attr type="16424" value="6944" />
+<attr type="16425" value="6945" />
+<attr type="16426" value="6946" />
+<attr type="16430" value="11" />
+<attr type="16417" value="0|600|300|100|0" />
+<attr type="16418" value="0|500|350|100|50" />
+<attr type="16419" value="0|100|130|160|200" />
+<attr type="16416" value="1055#80" />
+<attr type="16467" value="0|0|0|0|0;0|700|240|50|10;0|0|770|200|30;0|0|0|900|100;0|0|0|0|0" />
+<attr type="16442" value="0|3" />
+<attr type="16399" value="30" />
+<attr type="16478" value="0|0|0|500|500" />
+<attr type="16434" value="67" />
+<attr type="16518" value="100|100|130|230|400" />
+<condition type="16401" value="1055#1" />
+<getcondition type="16386" value="90" />
+<getcondition type="16387" value="30" />
+<getcondition type="16390" value="2" />
+<rewards type="4104" value="150" />
+<rewards type="4099" value="#rule7" />
+<rewards type="4105" value="30" />
+</task>
+
+<task maintype="9" id="50006" name="刺探任务" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="我这就去别的国家刺探情报。" submit_answerinfo="情报已经带回。" completeTip="[#C\A018E7#]高风险高收益[#C#]" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="" >
+<attr type="16421" value="1050" />
+<attr type="16422" value="1050" />
+<attr type="16423" value="6943" />
+<attr type="16424" value="6944" />
+<attr type="16425" value="6945" />
+<attr type="16426" value="6946" />
+<attr type="16430" value="11" />
+<attr type="16417" value="0|600|300|100|0" />
+<attr type="16418" value="0|500|350|100|50" />
+<attr type="16419" value="0|100|130|160|200" />
+<attr type="16416" value="1052#80" />
+<attr type="16467" value="0|0|0|0|0;0|700|240|50|10;0|0|770|200|30;0|0|0|900|100;0|0|0|0|0" />
+<attr type="16442" value="0|3" />
+<attr type="16399" value="30" />
+<attr type="16478" value="0|0|0|500|500" />
+<attr type="16434" value="81" />
+<attr type="16518" value="100|100|130|230|400" />
+<condition type="16401" value="1052#1" />
+<getcondition type="16386" value="78" />
+<getcondition type="16387" value="30" />
+<getcondition type="16390" value="2" />
+<rewards type="4104" value="150" />
+<rewards type="4099" value="#rule7" />
+<rewards type="4105" value="30" />
+</task>
+
+<task maintype="9" id="50007" name="刺探任务" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="我这就去别的国家刺探情报。" submit_answerinfo="情报已经带回。" completeTip="[#C\A018E7#]高风险高收益[#C#]" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="" >
+<attr type="16421" value="1050" />
+<attr type="16422" value="1050" />
+<attr type="16423" value="6943" />
+<attr type="16424" value="6944" />
+<attr type="16425" value="6945" />
+<attr type="16426" value="6946" />
+<attr type="16430" value="11" />
+<attr type="16417" value="0|600|300|100|0" />
+<attr type="16418" value="0|500|350|100|50" />
+<attr type="16419" value="0|100|130|160|200" />
+<attr type="16416" value="1053#80" />
+<attr type="16467" value="0|0|0|0|0;0|700|240|50|10;0|0|770|200|30;0|0|0|900|100;0|0|0|0|0" />
+<attr type="16442" value="0|3" />
+<attr type="16399" value="30" />
+<attr type="16478" value="0|0|0|500|500" />
+<attr type="16434" value="90" />
+<attr type="16518" value="100|100|130|230|400" />
+<condition type="16401" value="1053#1" />
+<getcondition type="16386" value="78" />
+<getcondition type="16387" value="30" />
+<getcondition type="16390" value="2" />
+<rewards type="4104" value="150" />
+<rewards type="4099" value="#rule7" />
+<rewards type="4105" value="30" />
+</task>
+
+<task maintype="9" id="50008" name="刺探任务" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="我这就去别的国家刺探情报。" submit_answerinfo="情报已经带回。" completeTip="[#C\A018E7#]高风险高收益[#C#]" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="" >
+<attr type="16421" value="1050" />
+<attr type="16422" value="1050" />
+<attr type="16423" value="6943" />
+<attr type="16424" value="6944" />
+<attr type="16425" value="6945" />
+<attr type="16426" value="6946" />
+<attr type="16430" value="11" />
+<attr type="16417" value="0|600|300|100|0" />
+<attr type="16418" value="0|500|350|100|50" />
+<attr type="16419" value="0|100|130|160|200" />
+<attr type="16416" value="1055#80" />
+<attr type="16467" value="0|0|0|0|0;0|700|240|50|10;0|0|770|200|30;0|0|0|900|100;0|0|0|0|0" />
+<attr type="16442" value="0|3" />
+<attr type="16399" value="30" />
+<attr type="16478" value="0|0|0|500|500" />
+<attr type="16434" value="67" />
+<attr type="16518" value="100|100|130|230|400" />
+<condition type="16401" value="1055#1" />
+<getcondition type="16386" value="78" />
+<getcondition type="16387" value="30" />
+<getcondition type="16390" value="2" />
+<rewards type="4104" value="150" />
+<rewards type="4099" value="#rule7" />
+<rewards type="4105" value="30" />
+</task>
+
+<task maintype="9" id="50009" name="刺探任务" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="我这就去别的国家刺探情报。" submit_answerinfo="情报已经带回。" completeTip="[#C\A018E7#]高风险高收益[#C#]" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="" >
+<attr type="16421" value="1051" />
+<attr type="16422" value="1051" />
+<attr type="16423" value="6943" />
+<attr type="16424" value="6944" />
+<attr type="16425" value="6945" />
+<attr type="16426" value="6946" />
+<attr type="16430" value="11" />
+<attr type="16417" value="0|600|300|100|0" />
+<attr type="16418" value="0|500|350|100|50" />
+<attr type="16419" value="0|100|130|160|200" />
+<attr type="16416" value="1052#80" />
+<attr type="16467" value="0|0|0|0|0;0|700|240|50|10;0|0|770|200|30;0|0|0|900|100;0|0|0|0|0" />
+<attr type="16442" value="0|3" />
+<attr type="16399" value="30" />
+<attr type="16478" value="0|0|0|500|500" />
+<attr type="16434" value="81" />
+<attr type="16518" value="100|100|130|230|400" />
+<condition type="16401" value="1052#1" />
+<getcondition type="16386" value="67" />
+<getcondition type="16387" value="30" />
+<getcondition type="16390" value="2" />
+<rewards type="4104" value="150" />
+<rewards type="4099" value="#rule7" />
+<rewards type="4105" value="30" />
+</task>
+
+<task maintype="9" id="50010" name="刺探任务" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="我这就去别的国家刺探情报。" submit_answerinfo="情报已经带回。" completeTip="[#C\A018E7#]高风险高收益[#C#]" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="" >
+<attr type="16421" value="1051" />
+<attr type="16422" value="1051" />
+<attr type="16423" value="6943" />
+<attr type="16424" value="6944" />
+<attr type="16425" value="6945" />
+<attr type="16426" value="6946" />
+<attr type="16430" value="11" />
+<attr type="16417" value="0|600|300|100|0" />
+<attr type="16418" value="0|500|350|100|50" />
+<attr type="16419" value="0|100|130|160|200" />
+<attr type="16416" value="1053#80" />
+<attr type="16467" value="0|0|0|0|0;0|700|240|50|10;0|0|770|200|30;0|0|0|900|100;0|0|0|0|0" />
+<attr type="16442" value="0|3" />
+<attr type="16399" value="30" />
+<attr type="16478" value="0|0|0|500|500" />
+<attr type="16434" value="90" />
+<attr type="16518" value="100|100|130|230|400" />
+<condition type="16401" value="1053#1" />
+<getcondition type="16386" value="67" />
+<getcondition type="16387" value="30" />
+<getcondition type="16390" value="2" />
+<rewards type="4104" value="150" />
+<rewards type="4099" value="#rule7" />
+<rewards type="4105" value="30" />
+</task>
+
+<task maintype="9" id="50011" name="刺探任务" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="我这就去别的国家刺探情报。" submit_answerinfo="情报已经带回。" completeTip="[#C\A018E7#]高风险高收益[#C#]" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="" >
+<attr type="16421" value="1051" />
+<attr type="16422" value="1051" />
+<attr type="16423" value="6943" />
+<attr type="16424" value="6944" />
+<attr type="16425" value="6945" />
+<attr type="16426" value="6946" />
+<attr type="16430" value="11" />
+<attr type="16417" value="0|600|300|100|0" />
+<attr type="16418" value="0|500|350|100|50" />
+<attr type="16419" value="0|100|130|160|200" />
+<attr type="16416" value="1054#80" />
+<attr type="16467" value="0|0|0|0|0;0|700|240|50|10;0|0|770|200|30;0|0|0|900|100;0|0|0|0|0" />
+<attr type="16442" value="0|3" />
+<attr type="16399" value="30" />
+<attr type="16478" value="0|0|0|500|500" />
+<attr type="16434" value="78" />
+<attr type="16518" value="100|100|130|230|400" />
+<condition type="16401" value="1054#1" />
+<getcondition type="16386" value="67" />
+<getcondition type="16387" value="30" />
+<getcondition type="16390" value="2" />
+<rewards type="4104" value="150" />
+<rewards type="4099" value="#rule7" />
+<rewards type="4105" value="30" />
+</task>
+
+
+<task maintype="11" id="50012" name="[齐]太庙建设" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="好的，我这就出发。" submit_answerinfo="上交砖块" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="" >
+<attr type="16421" value="1060" />
+<attr type="16422" value="1060" />
+<attr type="16423" value="6975" />
+<attr type="16424" value="6976" />
+<attr type="16425" value="6977" />
+<attr type="16426" value="6978" />
+<attr type="16430" value="9" />
+<attr type="16417" value="0|800|200|0|0" />
+<attr type="16418" value="0|650|200|100|50" />
+<attr type="16419" value="0|100|130|160|200" />
+<attr type="16399" value="10" />
+<getcondition type="16386" value="81" />
+<getcondition type="16387" value="30" />
+<getcondition type="16390" value="3" />
+<attr type="16442" value="0|3" />
+<attr type="16467" value="0|0|0|0|0;0|700|240|50|10;0|0|770|200|30;0|0|0|900|100;0|0|0|0|0" />
+<attr type="16518" value="100|100|130|200|330" />
+<condition type="16468" value="1061#1" />
+<condition type="16468" value="1062#1" />
+<condition type="16468" value="1063#1" />
+<getcondition type="16389" value="00:00:00-23:59:59" />
+<rewards type="4099" value="#rule8" />
+<rewards type="4104" value="150" />
+<rewards type="16655" value="20" />
+<rewards type="4105" value="30" />
+</task>
+
+<task maintype="11" id="50013" name="[赵]太庙建设" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="好的，我这就出发。" submit_answerinfo="上交砖块" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="" >
+<attr type="16421" value="1061" />
+<attr type="16422" value="1061" />
+<attr type="16423" value="6975" />
+<attr type="16424" value="6976" />
+<attr type="16425" value="6977" />
+<attr type="16426" value="6978" />
+<attr type="16430" value="9" />
+<attr type="16417" value="0|800|200|0|0" />
+<attr type="16418" value="0|650|200|100|50" />
+<attr type="16419" value="0|100|130|160|200" />
+<attr type="16399" value="10" />
+<getcondition type="16386" value="90" />
+<getcondition type="16387" value="30" />
+<getcondition type="16390" value="3" />
+<attr type="16442" value="0|3" />
+<attr type="16467" value="0|0|0|0|0;0|700|240|50|10;0|0|770|200|30;0|0|0|900|100;0|0|0|0|0" />
+<attr type="16518" value="100|100|130|200|330" />
+<condition type="16468" value="1060#1" />
+<condition type="16468" value="1062#1" />
+<condition type="16468" value="1063#1" />
+<getcondition type="16389" value="00:00:00-23:59:59" />
+<rewards type="4099" value="#rule8" />
+<rewards type="4104" value="150" />
+<rewards type="16655" value="20" />
+<rewards type="4105" value="30" />
+</task>
+
+<task maintype="11" id="50014" name="[秦]太庙建设" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="好的，我这就出发。" submit_answerinfo="上交砖块" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="" >
+<attr type="16421" value="1062" />
+<attr type="16422" value="1062" />
+<attr type="16423" value="6975" />
+<attr type="16424" value="6976" />
+<attr type="16425" value="6977" />
+<attr type="16426" value="6978" />
+<attr type="16430" value="9" />
+<attr type="16417" value="0|800|200|0|0" />
+<attr type="16418" value="0|650|200|100|50" />
+<attr type="16419" value="0|100|130|160|200" />
+<attr type="16399" value="10" />
+<getcondition type="16386" value="78" />
+<getcondition type="16387" value="30" />
+<getcondition type="16390" value="3" />
+<attr type="16442" value="0|3" />
+<attr type="16467" value="0|0|0|0|0;0|700|240|50|10;0|0|770|200|30;0|0|0|900|100;0|0|0|0|0" />
+<attr type="16518" value="100|100|130|200|330" />
+<condition type="16468" value="1060#1" />
+<condition type="16468" value="1061#1" />
+<condition type="16468" value="1063#1" />
+<getcondition type="16389" value="00:00:00-23:59:59" />
+<rewards type="4099" value="#rule8" />
+<rewards type="4104" value="150" />
+<rewards type="16655" value="20" />
+<rewards type="4105" value="30" />
+</task>
+
+<task maintype="11" id="50015" name="[楚]太庙建设" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="0" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="好的，我这就出发。" submit_answerinfo="上交砖块" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="" >
+<attr type="16421" value="1063" />
+<attr type="16422" value="1063" />
+<attr type="16423" value="6975" />
+<attr type="16424" value="6976" />
+<attr type="16425" value="6977" />
+<attr type="16426" value="6978" />
+<attr type="16430" value="9" />
+<attr type="16417" value="0|800|200|0|0" />
+<attr type="16418" value="0|650|200|100|50" />
+<attr type="16419" value="0|100|130|160|200" />
+<attr type="16399" value="10" />
+<getcondition type="16386" value="67" />
+<getcondition type="16387" value="30" />
+<getcondition type="16390" value="3" />
+<attr type="16442" value="0|3" />
+<attr type="16467" value="0|0|0|0|0;0|700|240|50|10;0|0|770|200|30;0|0|0|900|100;0|0|0|0|0" />
+<attr type="16518" value="100|100|130|200|330" />
+<condition type="16468" value="1060#1" />
+<condition type="16468" value="1061#1" />
+<condition type="16468" value="1062#1" />
+<getcondition type="16389" value="00:00:00-23:59:59" />
+<rewards type="4099" value="#rule8" />
+<rewards type="4104" value="150" />
+<rewards type="16655" value="20" />
+<rewards type="4105" value="30" />
+</task>
+
+<task maintype="29" id="50500" name="诛邪任务" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="1" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="" submit_answerinfo="" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<attr type="16430" value="task_everydailylib_q.xml" />
+<attr type="16417" value="500|360|100|30|10" />
+<attr type="16467" value="200|740|50|10|0;0|550|420|30|0;0|0|700|250|50;0|0|0|800|200;0|0|0|0|0" />
+<attr type="16433" value="20" />
+<getcondition type="16386" value="81" />
+<getcondition type="16387" value="50" />
+<getcondition type="16432" value="121" />
+<attr type="16442" value="0|2" />
+<attr type="16419" value="100|130|160|200|250" />
+<getcondition type="16390" value="20" />
+<rewards type="4099" value="#rule40" />
+<rewards type="4101" value="#rule41" />
+<rewards type="20481" value="reward_weeklylib.xml" />
+</task>
+
+<task maintype="29" id="50600" name="诛邪任务" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="1" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="" submit_answerinfo="" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<attr type="16430" value="task_everydailylib_z.xml" />
+<attr type="16417" value="500|360|100|30|10" />
+<attr type="16467" value="200|740|50|10|0;0|550|420|30|0;0|0|700|250|50;0|0|0|800|200;0|0|0|0|0" />
+<attr type="16433" value="20" />
+<getcondition type="16386" value="90" />
+<getcondition type="16387" value="50" />
+<getcondition type="16432" value="121" />
+<attr type="16442" value="0|2" />
+<attr type="16419" value="100|130|160|200|250" />
+<getcondition type="16390" value="20" />
+<rewards type="4099" value="#rule40" />
+<rewards type="4101" value="#rule41" />
+<rewards type="20481" value="reward_weeklylib.xml" />
+</task>
+
+<task maintype="29" id="50700" name="诛邪任务" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="1" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="" submit_answerinfo="" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<attr type="16430" value="task_everydailylib_n.xml" />
+<attr type="16417" value="500|360|100|30|10" />
+<attr type="16467" value="200|740|50|10|0;0|550|420|30|0;0|0|700|250|50;0|0|0|800|200;0|0|0|0|0" />
+<attr type="16433" value="20" />
+<getcondition type="16386" value="78" />
+<getcondition type="16387" value="50" />
+<getcondition type="16432" value="121" />
+<attr type="16442" value="0|2" />
+<attr type="16419" value="100|130|160|200|250" />
+<getcondition type="16390" value="20" />
+<rewards type="4099" value="#rule40" />
+<rewards type="4101" value="#rule41" />
+<rewards type="20481" value="reward_weeklylib.xml" />
+</task>
+
+<task maintype="29" id="50800" name="诛邪任务" can_drop="0" can_dice="0" can_repeat="1" is_quality="1" acceptnpc_random="0" compnpc_random="0" taskmsg_random="0" acceptmsg_random="0" compmsg_random="0" processmsg_random="0" conditiontype_random="1" auto_accept="0" auto_submit="0" activateguide="0" hard_level="1" can_fly="0" accept_printinfo="" submit_printinfo="" accept_answerinfo="" submit_answerinfo="" completeTip="" isShowRoute="0" title="" can_mul="0" isShowFinishCount="" showtype="1" >
+<attr type="16430" value="task_everydailylib_c.xml" />
+<attr type="16417" value="500|360|100|30|10" />
+<attr type="16467" value="200|740|50|10|0;0|550|420|30|0;0|0|700|250|50;0|0|0|800|200;0|0|0|0|0" />
+<attr type="16433" value="20" />
+<getcondition type="16386" value="67" />
+<getcondition type="16387" value="50" />
+<getcondition type="16432" value="121" />
+<attr type="16442" value="0|2" />
+<attr type="16419" value="100|130|160|200|250" />
+<getcondition type="16390" value="20" />
+<rewards type="4099" value="#rule40" />
+<rewards type="4101" value="#rule41" />
+<rewards type="20481" value="reward_weeklylib.xml" />
+</task>
+
+</root>

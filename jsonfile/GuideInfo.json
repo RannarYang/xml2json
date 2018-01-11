@@ -1,0 +1,1846 @@
+[
+    {
+        "id": "1",
+        "des": "点击前往",
+        "condition": {
+            "id": "1",
+            "param": "38201"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "38201"
+                    },
+                    {
+                        "id": "2",
+                        "param": "38200"
+                    },
+                    {
+                        "id": "21",
+                        "param": "38200"
+                    },
+                    {
+                        "id": "7",
+                        "param": "33"
+                    }
+                ],
+                "command": {
+                    "id": "endButtonGuide",
+                    "param": "62,6,点击前往"
+                }
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "des": "点击挑战BOSS",
+        "condition": {
+            "id": "3",
+            "param": "1,2"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "4",
+                        "param": "1,1"
+                    }
+                ],
+                "command": [
+                    {
+                        "id": "buttonGuide",
+                        "param": "2,T,前往挑战BOSS"
+                    },
+                    {
+                        "id": "endButtonGuide",
+                        "param": "2,T"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "des": "停住引导",
+        "condition": {
+            "id": "3",
+            "param": "1,2"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "38201"
+                    },
+                    {
+                        "id": "4",
+                        "param": "1,2"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "38201"
+                    },
+                    {
+                        "id": "4",
+                        "param": "1,2"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "des": "引导穿戴装备",
+        "condition": {
+            "id": "1",
+            "param": "38202"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "38202"
+                    },
+                    {
+                        "id": "2",
+                        "param": "38201"
+                    },
+                    {
+                        "id": "21",
+                        "param": "38201"
+                    },
+                    {
+                        "id": "5",
+                        "param": "HeroView"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "4,T,打开人物界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "38202"
+                    },
+                    {
+                        "id": "2",
+                        "param": "38201"
+                    },
+                    {
+                        "id": "21",
+                        "param": "38201"
+                    },
+                    {
+                        "id": "6",
+                        "param": "HeroView"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "5,T,一键穿戴装备"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "38202"
+                    },
+                    {
+                        "id": "6",
+                        "param": "HeroView"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "return,l,关闭人物界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "38202"
+                    },
+                    {
+                        "id": "5",
+                        "param": "HeroView"
+                    }
+                ],
+                "command": {
+                    "id": "onceButtonGuide",
+                    "param": "62,6,领取任务奖励"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "38202"
+                    },
+                    {
+                        "id": "5",
+                        "param": "HeroView"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "des": "停住引导",
+        "condition": {
+            "id": "2",
+            "param": "38202"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "38520"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "des": "强化装备",
+        "condition": {
+            "id": "1",
+            "param": "38520"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "38520"
+                    },
+                    {
+                        "id": "5",
+                        "param": "ForgeView"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "7,T,打开锻造界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "38520"
+                    },
+                    {
+                        "id": "6",
+                        "param": "ForgeView"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "8,T,点击强化"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "38520"
+                    },
+                    {
+                        "id": "6",
+                        "param": "ForgeView"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "return,l,关闭强化界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "38520"
+                    },
+                    {
+                        "id": "5",
+                        "param": "ForgeView,0"
+                    }
+                ],
+                "command": {
+                    "id": "onceButtonGuide",
+                    "param": "62,6,领取任务奖励"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "38520"
+                    },
+                    {
+                        "id": "5",
+                        "param": "ForgeView,0"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "des": "停住引导",
+        "condition": {
+            "id": "2",
+            "param": "38520"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "39150"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "des": "停住引导",
+        "condition": {
+            "id": "2",
+            "param": "39150"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "39450"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "des": "镶嵌宝石",
+        "condition": {
+            "id": "1",
+            "param": "39450"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "39450"
+                    },
+                    {
+                        "id": "2",
+                        "param": "39400"
+                    },
+                    {
+                        "id": "21",
+                        "param": "39400"
+                    },
+                    {
+                        "id": "18",
+                        "param": "21"
+                    },
+                    {
+                        "id": "5",
+                        "param": "ForgeView"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "7,T,打开锻造界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "39450"
+                    },
+                    {
+                        "id": "2",
+                        "param": "39400"
+                    },
+                    {
+                        "id": "21",
+                        "param": "39400"
+                    },
+                    {
+                        "id": "18",
+                        "param": "21"
+                    },
+                    {
+                        "id": "6",
+                        "param": "ForgeView,0"
+                    },
+                    {
+                        "id": "5",
+                        "param": "ForgeView,2"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "24,T,打开宝石界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "39450"
+                    },
+                    {
+                        "id": "2",
+                        "param": "39400"
+                    },
+                    {
+                        "id": "21",
+                        "param": "39400"
+                    },
+                    {
+                        "id": "6",
+                        "param": "ForgeView,2"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "51,T,点击一键镶嵌宝石"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "39450"
+                    },
+                    {
+                        "id": "6",
+                        "param": "ForgeView,2"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "return,l,关闭宝石界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "39450"
+                    },
+                    {
+                        "id": "5",
+                        "param": "ForgeView"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "des": "停住引导",
+        "condition": {
+            "id": "2",
+            "param": "39450"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "39550"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "des": "洗练宠物",
+        "condition": {
+            "id": "1",
+            "param": "39550"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "39550"
+                    },
+                    {
+                        "id": "2",
+                        "param": "39500"
+                    },
+                    {
+                        "id": "21",
+                        "param": "39500"
+                    },
+                    {
+                        "id": "5",
+                        "param": "MountView"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "11,T,打开骑宠界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "39550"
+                    },
+                    {
+                        "id": "2",
+                        "param": "39500"
+                    },
+                    {
+                        "id": "21",
+                        "param": "39500"
+                    },
+                    {
+                        "id": "6",
+                        "param": "MountView"
+                    },
+                    {
+                        "id": "5",
+                        "param": "MountView,4"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "58,T,打开宠物界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "39550"
+                    },
+                    {
+                        "id": "2",
+                        "param": "39500"
+                    },
+                    {
+                        "id": "21",
+                        "param": "39500"
+                    },
+                    {
+                        "id": "6",
+                        "param": "MountView"
+                    },
+                    {
+                        "id": "6",
+                        "param": "MountView,4"
+                    },
+                    {
+                        "id": "5",
+                        "param": "MountView,4,1"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "69,B,打开宠物洗练"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "39550"
+                    },
+                    {
+                        "id": "2",
+                        "param": "39500"
+                    },
+                    {
+                        "id": "21",
+                        "param": "39500"
+                    },
+                    {
+                        "id": "6",
+                        "param": "MountView"
+                    },
+                    {
+                        "id": "6",
+                        "param": "MountView,4"
+                    },
+                    {
+                        "id": "6",
+                        "param": "MountView,4,1"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "65,L,洗练宠物成长"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "39550"
+                    },
+                    {
+                        "id": "6",
+                        "param": "MountView,4"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "return,l,关闭宠物界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "39550"
+                    },
+                    {
+                        "id": "5",
+                        "param": "MountView"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "12",
+        "des": "停住引导",
+        "condition": {
+            "id": "2",
+            "param": "39550"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "39900"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "des": "装备副本",
+        "condition": {
+            "id": "1",
+            "param": "39900"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "39900"
+                    },
+                    {
+                        "id": "21",
+                        "param": "39850"
+                    },
+                    {
+                        "id": "18",
+                        "param": "24"
+                    },
+                    {
+                        "id": "5",
+                        "param": "CopyMainListView,0"
+                    },
+                    {
+                        "id": "5",
+                        "param": "CopyMainListView,1"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "25,T,打开副本界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "39900"
+                    },
+                    {
+                        "id": "21",
+                        "param": "39850"
+                    },
+                    {
+                        "id": "18",
+                        "param": "24"
+                    },
+                    {
+                        "id": "6",
+                        "param": "CopyMainListView,1"
+                    },
+                    {
+                        "id": "5",
+                        "param": "CopyMainListView,0"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "53,l,点击挑战"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "39900"
+                    },
+                    {
+                        "id": "5",
+                        "param": "CopyMainListView,1"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "des": "停住引导",
+        "condition": {
+            "id": "2",
+            "param": "39900"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "40010"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "15",
+        "des": "熔炼装备",
+        "condition": {
+            "id": "1",
+            "param": "40010"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "40010"
+                    },
+                    {
+                        "id": "2",
+                        "param": "40000"
+                    },
+                    {
+                        "id": "21",
+                        "param": "40000"
+                    },
+                    {
+                        "id": "5",
+                        "param": "BackPackView"
+                    },
+                    {
+                        "id": "5",
+                        "param": "MeltingView"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "22,T,点击打开背包"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "40010"
+                    },
+                    {
+                        "id": "2",
+                        "param": "40000"
+                    },
+                    {
+                        "id": "21",
+                        "param": "40000"
+                    },
+                    {
+                        "id": "6",
+                        "param": "BackPackView"
+                    },
+                    {
+                        "id": "5",
+                        "param": "MeltingView"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "23,r,打开熔炼界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "40010"
+                    },
+                    {
+                        "id": "2",
+                        "param": "40000"
+                    },
+                    {
+                        "id": "21",
+                        "param": "40000"
+                    },
+                    {
+                        "id": "6",
+                        "param": "MeltingView"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "50,T,点击熔炼"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "40010"
+                    },
+                    {
+                        "id": "6",
+                        "param": "MeltingView"
+                    },
+                    {
+                        "id": "6",
+                        "param": "BackPackView"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "return,l,关闭熔炼界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "40010"
+                    },
+                    {
+                        "id": "6",
+                        "param": "BackPackView"
+                    },
+                    {
+                        "id": "5",
+                        "param": "MeltingView"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "return,l,关闭背包界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "40010"
+                    },
+                    {
+                        "id": "5",
+                        "param": "BackPackView"
+                    },
+                    {
+                        "id": "5",
+                        "param": "MeltingView"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "16",
+        "des": "回到主城",
+        "condition": {
+            "id": "2",
+            "param": "40010"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "40200"
+                    },
+                    {
+                        "id": "2",
+                        "param": "40160"
+                    },
+                    {
+                        "id": "21",
+                        "param": "40160"
+                    },
+                    {
+                        "id": "8",
+                        "param": "33"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "46,B,回到主城"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "40200"
+                    },
+                    {
+                        "id": "7",
+                        "param": "33"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "17",
+        "des": "停住引导",
+        "condition": {
+            "id": "2",
+            "param": "40010"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "40350"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "18",
+        "des": "切回PK模式",
+        "condition": {
+            "id": "1",
+            "param": "40350"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "40350"
+                    },
+                    {
+                        "id": "2",
+                        "param": "40200"
+                    },
+                    {
+                        "id": "21",
+                        "param": "40200"
+                    },
+                    {
+                        "id": "7",
+                        "param": "33"
+                    },
+                    {
+                        "id": "5",
+                        "param": "PkTipView"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "43,r,打开PK模式界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "40350"
+                    },
+                    {
+                        "id": "2",
+                        "param": "40200"
+                    },
+                    {
+                        "id": "21",
+                        "param": "40200"
+                    },
+                    {
+                        "id": "8",
+                        "param": "33"
+                    },
+                    {
+                        "id": "5",
+                        "param": "PkTipView"
+                    }
+                ],
+                "command": {
+                    "id": "",
+                    "param": ""
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "40350"
+                    },
+                    {
+                        "id": "21",
+                        "param": "40200"
+                    },
+                    {
+                        "id": "6",
+                        "param": "PkTipView"
+                    }
+                ],
+                "command": {
+                    "id": "onceButtonGuide",
+                    "param": "44,4,选择国家模式"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "40350"
+                    },
+                    {
+                        "id": "21",
+                        "param": "40200"
+                    },
+                    {
+                        "id": "6",
+                        "param": "PkTipView"
+                    }
+                ],
+                "command": {
+                    "id": "onceButtonGuide",
+                    "param": "52,4,点击确定"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "40350"
+                    },
+                    {
+                        "id": "5",
+                        "param": "PkTipView"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "19",
+        "des": "停住引导",
+        "condition": {
+            "id": "2",
+            "param": "40350"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "40400"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "20",
+        "des": "引导刺探",
+        "condition": {
+            "id": "1",
+            "param": "40400"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "40400"
+                    },
+                    {
+                        "id": "2",
+                        "param": "40350"
+                    },
+                    {
+                        "id": "21",
+                        "param": "40350"
+                    },
+                    {
+                        "id": "6",
+                        "param": "dailyView,3"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "59,l,前往刺探"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "40400"
+                    },
+                    {
+                        "id": "5",
+                        "param": "dailyView,3"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "21",
+        "des": "停住引导",
+        "condition": {
+            "id": "2",
+            "param": "40400"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "40500"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "22",
+        "des": "提升军衔",
+        "condition": {
+            "id": "1",
+            "param": "40500"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "40500"
+                    },
+                    {
+                        "id": "2",
+                        "param": "40450"
+                    },
+                    {
+                        "id": "21",
+                        "param": "40450"
+                    },
+                    {
+                        "id": "5",
+                        "param": "NationView,0"
+                    },
+                    {
+                        "id": "5",
+                        "param": "NationView,2"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "36,T,打开国家界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "40500"
+                    },
+                    {
+                        "id": "2",
+                        "param": "40450"
+                    },
+                    {
+                        "id": "21",
+                        "param": "40450"
+                    },
+                    {
+                        "id": "6",
+                        "param": "NationView,0"
+                    },
+                    {
+                        "id": "5",
+                        "param": "NationView,2"
+                    }
+                ],
+                "command": {
+                    "id": "onceButtonGuide",
+                    "param": "38,4,打开军衔界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "40500"
+                    },
+                    {
+                        "id": "2",
+                        "param": "40450"
+                    },
+                    {
+                        "id": "21",
+                        "param": "40450"
+                    },
+                    {
+                        "id": "6",
+                        "param": "NationView,2"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "39,T,提升军衔"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "40500"
+                    },
+                    {
+                        "id": "5",
+                        "param": "NationView,0"
+                    },
+                    {
+                        "id": "6",
+                        "param": "NationView,2"
+                    }
+                ],
+                "command": {
+                    "id": "endButtonGuide",
+                    "param": "return,6,关闭军衔界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "40500"
+                    },
+                    {
+                        "id": "5",
+                        "param": "NationView,0"
+                    },
+                    {
+                        "id": "5",
+                        "param": "NationView,2"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "23",
+        "des": "停住引导",
+        "condition": {
+            "id": "2",
+            "param": "40500"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "41100"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "24",
+        "des": "比武",
+        "condition": {
+            "id": "1",
+            "param": "41100"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "41100"
+                    },
+                    {
+                        "id": "21",
+                        "param": "41050"
+                    },
+                    {
+                        "id": "18",
+                        "param": "34"
+                    },
+                    {
+                        "id": "5",
+                        "param": "BiWuView"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "27,T,打开比武界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "41100"
+                    },
+                    {
+                        "id": "21",
+                        "param": "41050"
+                    },
+                    {
+                        "id": "18",
+                        "param": "34"
+                    },
+                    {
+                        "id": "6",
+                        "param": "BiWuView"
+                    }
+                ],
+                "command": {
+                    "id": "endButtonGuide",
+                    "param": "40,2,点击挑战"
+                }
+            }
+        ]
+    },
+    {
+        "id": "25",
+        "des": "停住引导",
+        "condition": {
+            "id": "2",
+            "param": "41100"
+        },
+        "action": [
+            {
+                "condition": {
+                    "id": "1",
+                    "param": "41450"
+                },
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            },
+            {
+                "condition": {
+                    "id": "21",
+                    "param": "41450"
+                },
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "26",
+        "des": "停住引导",
+        "condition": {
+            "id": "1",
+            "param": "41450"
+        },
+        "action": [
+            {
+                "condition": {
+                    "id": "2",
+                    "param": "41450"
+                },
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            },
+            {
+                "condition": {
+                    "id": "21",
+                    "param": "41450"
+                },
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "27",
+        "des": "停住引导",
+        "condition": {
+            "id": "2",
+            "param": "41450"
+        },
+        "action": [
+            {
+                "condition": {
+                    "id": "1",
+                    "param": "41500"
+                },
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            },
+            {
+                "condition": {
+                    "id": "21",
+                    "param": "41500"
+                },
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "28",
+        "des": "试炼巅峰",
+        "condition": {
+            "id": "1",
+            "param": "41500"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "41500"
+                    },
+                    {
+                        "id": "2",
+                        "param": "41450"
+                    },
+                    {
+                        "id": "21",
+                        "param": "41450"
+                    },
+                    {
+                        "id": "18",
+                        "param": "29"
+                    },
+                    {
+                        "id": "5",
+                        "param": "CopyShiLianView"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "28,T,打开试炼界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "41500"
+                    },
+                    {
+                        "id": "2",
+                        "param": "41450"
+                    },
+                    {
+                        "id": "21",
+                        "param": "41450"
+                    },
+                    {
+                        "id": "6",
+                        "param": "CopyShiLianView"
+                    }
+                ],
+                "command": {
+                    "id": "endButtonGuide",
+                    "param": "29,4,挑战经验塔"
+                }
+            }
+        ]
+    },
+    {
+        "id": "29",
+        "des": "停住引导",
+        "condition": {
+            "id": "1",
+            "param": "41500"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "41500"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "30",
+        "des": "停住引导",
+        "condition": {
+            "id": "2",
+            "param": "41500"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "41650"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "31",
+        "des": "引导转职",
+        "condition": {
+            "id": "1",
+            "param": "41650"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "41650"
+                    },
+                    {
+                        "id": "2",
+                        "param": "41600"
+                    },
+                    {
+                        "id": "21",
+                        "param": "41600"
+                    },
+                    {
+                        "id": "5",
+                        "param": "HeroView"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "4,T,打开人物界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "41650"
+                    },
+                    {
+                        "id": "2",
+                        "param": "41600"
+                    },
+                    {
+                        "id": "21",
+                        "param": "41600"
+                    },
+                    {
+                        "id": "6",
+                        "param": "HeroView,0"
+                    },
+                    {
+                        "id": "5",
+                        "param": "HeroView,1"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "9,T,打开技能界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "41650"
+                    },
+                    {
+                        "id": "2",
+                        "param": "41600"
+                    },
+                    {
+                        "id": "21",
+                        "param": "41600"
+                    },
+                    {
+                        "id": "6",
+                        "param": "HeroView,0"
+                    },
+                    {
+                        "id": "6",
+                        "param": "HeroView,1"
+                    }
+                ],
+                "command": {
+                    "id": "onceButtonGuide",
+                    "param": "68,2,打开转职界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "41650"
+                    },
+                    {
+                        "id": "6",
+                        "param": "HeroView,1"
+                    }
+                ],
+                "command": {
+                    "id": "endButtonGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "32",
+        "des": "停住引导",
+        "condition": {
+            "id": "2",
+            "param": "41650"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "42150"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    },
+    {
+        "id": "33",
+        "des": "朱雀塔",
+        "condition": {
+            "id": "1",
+            "param": "42150"
+        },
+        "action": [
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "42150"
+                    },
+                    {
+                        "id": "2",
+                        "param": "42100"
+                    },
+                    {
+                        "id": "21",
+                        "param": "42100"
+                    },
+                    {
+                        "id": "5",
+                        "param": "CopyMainListView"
+                    }
+                ],
+                "command": {
+                    "id": "buttonGuide",
+                    "param": "25,T,打开副本界面"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "1",
+                        "param": "42150"
+                    },
+                    {
+                        "id": "2",
+                        "param": "42100"
+                    },
+                    {
+                        "id": "21",
+                        "param": "42100"
+                    },
+                    {
+                        "id": "6",
+                        "param": "CopyMainListView,0"
+                    }
+                ],
+                "command": {
+                    "id": "endButtonGuide",
+                    "param": "47,2,点击进入副本"
+                }
+            },
+            {
+                "condition": [
+                    {
+                        "id": "2",
+                        "param": "42150"
+                    },
+                    {
+                        "id": "5",
+                        "param": "copyEntranceView"
+                    }
+                ],
+                "command": {
+                    "id": "endGuide",
+                    "param": ""
+                }
+            }
+        ]
+    }
+]

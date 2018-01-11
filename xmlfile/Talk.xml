@@ -1,0 +1,82 @@
+<root>	
+ 
+    <talk id="104">	
+    <dialog id="1" msg="咳咳咳，本官负责驻守此地，若有不便之处还请多多包涵！"/>	
+  </talk>	
+  
+    <talk id="106">	
+    <dialog id="1" msg="哼哼！我要守卫皇城，绝不让任何歹人为非作恶。"/>	
+  </talk>	
+   
+      <talk id="1004">	
+    <dialog id="1" msg="安和之日，何时到来？"/>	
+  </talk>	
+      <talk id="1005">	
+    <dialog id="1" msg="搬砖可获得功勋和国家资金以及大量的经验奖励。砖块品质越高，奖励越丰厚，每天3次搬砖次数。"/>	
+  </talk>	
+      <talk id="1006">	
+    <dialog id="1" msg="每天可前往其他国家进行刺探，每天2次，刺探品质越高，奖励越丰厚。每天的16:00-19:00是国探时间，期间完成刺探可获得双倍经验奖励。"/>	
+  </talk>	
+   
+	
+    <talk id="1041">	
+    <dialog id="1" msg="来者何人？闲杂人等不得靠近皇宫。"/>	
+  </talk>	
+	
+    <talk id="1042">	
+    <dialog id="1" msg="来者何人？闲杂人等不得靠近皇宫。"/>	
+  </talk>	
+  
+  <talk id="1043">	
+    <dialog id="1" msg="臣子应当为王肝脑涂地。"/>	
+  </talk>	
+  
+  	   <talk id="2195">
+ <dialog id="1" msg="每日15点开启国家夺宝，采宝箱后上交宝箱可得功勋和国家资金。一天只能上交3次，单次上交宝箱越多，奖励越多。击杀其他国家玩家可抢夺其身上宝箱。">	
+       <option type="6" imgid="" color="" data="cmd|view:NaView,0" text="打开国家"/>	
+	   </dialog>
+  </talk> 
+    	   <talk id="2196">
+ <dialog id="1" msg="副本胜利能获得各种丰厚的奖励，是每日必须完成的事情之一。">	
+       <option type="6" imgid="" color="" data="cmd|view:CopyMainListView,0" text="副本列表"/>	
+	   </dialog>
+  </talk> 
+      	   <talk id="2197">
+ <dialog id="1" msg="通过比武能看见你与别人孰强孰弱，更能获得丰厚奖励。">	
+       <option type="6" imgid="" color="" data="cmd|view:BiWuView,0" text="打开比武"/>	
+	   </dialog>
+  </talk> 
+      	   <talk id="2198">
+ <dialog id="1" msg="每天有2次押镖的机会，成功押送镖车到目的地可获得丰厚的经验和银子奖励。每天的19:00-20:00是国运时间，在这期间完成押镖可获得双倍经验奖励。">	
+	   </dialog>
+  </talk> 
+           <talk id="2199">
+ <dialog id="1" msg="各位路过的大侠们手下留情啊，我不过是边境的小果农，种点小果树，卖点小水果，日子过得不容易啊~。">	
+       <option type="6" imgid="4" color="0x09A1E8" data="fruitList" text="查询果实"/>
+       <option type="6" imgid="4" color="0x09A1E8" data="fruitShop" text="购买种子"/>	   
+	   </dialog>
+  </talk> 
+             <talk id="2200">
+ <dialog id="1" msg="快来我这温柔乡泡一泡，这里应有尽有，包你满意。">	
+         <option type="6" imgid="4" color="0x09A1E8" data="cmd|view:HotSpringShopView,0,0,1" text="温泉商店"/>
+		 </dialog>
+  </talk> 
+               <talk id="2201">
+ <dialog id="1" msg="国若不安，何以为安。浴血沙场，奋勇杀敌，方显男儿本色！">  
+     </dialog>
+  </talk>
+             <talk id="2202">
+ <dialog id="1" msg="战场残酷，尔等若想活着回去，就休要懒惰懈怠！。">  
+     </dialog>
+  </talk>
+             <talk id="2203">
+ <dialog id="1" msg="天现异象，天下大乱，然星象却隐有所指，有趣，有趣！">  
+     </dialog>
+  </talk>
+               <talk id="2204">
+ <dialog id="1" msg="知之为知之，不知为不知，是知也。">  
+     </dialog>
+  </talk>
+  
+  
+</root>	

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--剧情id与服务器战斗副本表对应，动作id规定为10004，dir表示半身像的位置左边left，右边right，face表示半身像资源的id，可以从0开始排序，content表示说话内容，播放内容按照顺序来，想先播放哪个内容就放哪个 -->
+<root>
+	<script id="101">
+		<!-- <action id="10005" text="天下大势，合久必分，分久必合。\n战国纷争，列国征战，意欲称霸天下。" x="0.5" y="0.3" width="500" size="24" bold="0" effect_type="1" effect_param="1500" /> -->
+		<action id="10003"/>
+	</script>
+	<script id="102">
+		<action id="10007" npcid="1091"/>
+		<action id="10004" dir="left" face="" name="" content="生逢乱世，国战在即，唯有鏖战列国，方能登顶为王！"/>
+		<action id="10004" dir="right" face="9" name="李将军" content="国战，国战，前往夺取国战的胜利吧！"/>
+		<action id="10006"/>
+		<action id="10004" dir="right" face="9" name="李将军" content="国战，战况如何？"/>
+		<action id="10004" dir="left" face="" name="" content="启禀将军，吾等以成功击杀敌国将军，夺取了国战的最终胜利！"/>
+		<action id="10004" dir="right" face="9" name="李将军" content="好！现龙隐村又有新的战事爆发，请前往绞杀敌人，开启新的征程吧"/>
+		<action id="10004" dir="left" face="" name="" content="将军且待我凯旋归来"/>
+	</script>
+<!-- 	<script id="103">
+		<action id="10007" text="领取军需物资#2eff00(进行)" npcid="1092"/>
+		<action id="10004" dir="right" face="15" name="军需官" content="大人，这是为您准备的军需物资，请领取！"/>
+		<action id="10004" dir="left" face="" name="" content="既生逢乱世，国战在即，定要鏖战列国登顶为王！"/>
+	</script>
+	<script id="104">
+		<action id="10007" text="开启征途" npcid="1093"/>
+		<action id="10004" dir="left" face="" name="" content="征战一途，尽是艰难险阻，百死一生"/>
+		<action id="10004" dir="right" face="11" name="神秘人" content="赐你一神兵，定能让你睥睨天下，无所不破。请前往龙隐村，开启征程吧！"/>
+	</script> -->
+</root>

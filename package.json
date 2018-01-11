@@ -1,0 +1,24 @@
+{
+  "name": "xml2json",
+  "version": "1.0.0",
+  "description": "convert excel to json and typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xml",
+    "to",
+    "json",
+    "typescript"
+  ],
+  "author": "rannar yang",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.5.2",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2",
+    "xml2js": "^0.4.19"
+  },
+  "dependencies": {}
+}

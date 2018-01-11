@@ -1,0 +1,6 @@
+<root>
+   <element haha='value'/>
+   <element haha='value'>text1</element>
+   <element haha='value'></element>
+   <element>text2</element>
+</root>
